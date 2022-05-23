@@ -1,71 +1,52 @@
-img{
-  max-width: 100%;
-  height: auto;
+#links {
+	font-size: 34px;
+	font-family: Arial, sans-serif;
+	color: #f2f2f2;
+	display: inline-block;
+	width: 560px;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 40px;
+	transform: translate(0, 50%)
 }
-.navbar{
-   background-color: #00cc00;
-}
-.centimg, .centimg2{
-  display: block;
-  margin:20px auto;
-  scale:auto;
-}
-.centimg2{
-  max-width: 100%;
-  max-height: 300px;
-}
-.centre{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-}
-h2{
-  margin:0% 3%
-}
-p{
-  margin:0% 3%;
-  text-align: justify;
 
+#picture {
+	display: inline-block;
+	width: 400px;
+	transform: translate(0, 45%)
 }
-p.index {
-  padding: 5%,0%;
-  text-align: justify;
+
+#all {
+	width: 1025px;
+	margin: 0 auto;
 }
-.infoImageMain{
-  position: relative;
-  max-width: auto;
-  max-height: auto;
-  margin:0 auto;
+
+#links, #picture {
+	border: 1px;
+    float: left;
+    min-height: 400px;
 }
-.infoImageMain .content{
-  position: absolute;
-  top:0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+
+ body {
+        background-color: #00004d;
 }
-::selection{
-  color: white;
-  background: #00cc00;
+
+a:link {
+  color: #f2f2f2;
+  text-decoration: none
 }
-::-moz-selection{ /* selection for firefox*/
-  color: white;
-  background: #00cc00;
+
+a:visited {
+  color: #f2f2f2;
+  text-decoration: none
 }
-button{
-  text-align: center
+
+a:hover {
+  color: #ffcc00;
+  text-decoration: none
 }
-a .button{
-  margin:auto;
-}
-.cardSpacing{
-  /*this is mainly for the larger layouts where they need to be inline with the main photo*/
-  display: block;
-  margin:20px auto;
-  scale:auto;
-  max-width: 100%
+
+a:active {
+  color: #f2f2f2;
+  text-decoration: none
 }
