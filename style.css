@@ -1,34 +1,20 @@
-#links {
-	font-size: 34px;
+body {
+    background-color: #00004d;
 	font-family: Arial, sans-serif;
 	color: #f2f2f2;
-	display: inline-block;
-	width: 560px;
-	vertical-align: top;
-	text-align: left;
-	margin-left: 40px;
-	transform: translate(0, 50%)
+	font-size: 19px;
 }
 
-#picture {
-	display: inline-block;
-	width: 400px;
-	transform: translate(0, 45%)
+.image{
+	max-height: 250px;
+	max-width: 250px;
 }
 
-#all {
-	width: 1025px;
-	margin: 0 auto;
-}
-
-#links, #picture {
-	border: 1px;
-    float: left;
-    min-height: 400px;
-}
-
- body {
-        background-color: #00004d;
+.vertical-center {
+	min-height: 100%;
+	min-height: 80vh; 
+	display: flex;
+	align-items: center;
 }
 
 a:link {
