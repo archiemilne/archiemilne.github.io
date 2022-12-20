@@ -1,38 +1,52 @@
-body {
-    background-color: #00004d;
-	font-family: Arial, sans-serif;
-	color: #f2f2f2;
-	font-size: 19px;
-}
-
-.image{
-	max-height: 250px;
-	max-width: 250px;
-}
-
-.vertical-center {
-	min-height: 100%;
-	min-height: 80vh; 
-	display: flex;
-	align-items: center;
-}
-
-a:link {
-  color: #f2f2f2;
-  text-decoration: none
-}
-
-a:visited {
-  color: #f2f2f2;
-  text-decoration: none
-}
-
-a:hover {
-  color: #ffcc00;
-  text-decoration: none
-}
-
-a:active {
-  color: #f2f2f2;
-  text-decoration: none
-}
+body.dark-grey-bg {
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .light-dark-grey-bg {
+    background-color: rgb(83, 83, 83);
+  }
+  
+  .orange-outline {
+    border: 1px solid rgb(199, 129, 1);
+  }
+  
+  .rounded {
+    border-radius: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    max-width: 720px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .rounded-square {
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  a.link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.link:hover {
+    color: rgb(199, 129, 1);
+  }
+  
+  .link-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .link-icon,
+  a.link:hover .link-icon {
+    color: rgb(199, 129, 1);
+  }
+  
